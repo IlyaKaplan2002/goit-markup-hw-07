@@ -17,7 +17,7 @@
         "../sass/components/_modal.scss",
         "../sass/components/_sort-btn.scss",
         "../sass/components/_cards-list.scss",
-        "../sass/components/_footer.scss"
+        "../sass/components/_page-footer.scss"
     ],
     "names": [],
     "file": "main.css"
