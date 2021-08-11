@@ -46,7 +46,15 @@ a {
 .section {
   padding: 94px 0;
 }
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 
+/* Not forget to add */
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -55,13 +63,6 @@ a {
   text-align: center;
 }
 
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
 
 /* Header */
 .page-header {
