@@ -43,32 +43,23 @@
     }
 
     &__social-links {
-        display: flex;
-        padding: 0 32px;
+        @extend %social-links;
     }
 
     &__item:not(:last-child) {
-        margin-right: 10px;
+        @extend %social-links__item;
     }
 
     &__link {
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #afb1b8;
-        @include animation2(color, background-color);
+        @extend %social-links__link;
     }
 
     &__link:hover,
     &__link:focus {
-        background-color: getColor('hover-color');
-        color: getColor('bg-1');
+        @extend %social-links__link--hover-or-focus;
     }
 
     &__icon {
-        fill: currentColor;
+        @extend %social-links__icon;
     }
 }
